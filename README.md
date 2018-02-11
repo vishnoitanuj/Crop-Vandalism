@@ -1,24 +1,24 @@
-##PROBLEM STATEMENT
+### PROBLEM STATEMENT
 Crop Vandalism by animals, namely wild boar, nilgai, monkeys and other wild animals.
 Animals visit the farms at time unknown. The unavailability of any patrolling, each  yaer causes around 30-35% of crop losses to the farmers.
 High level fencing is too expensive and not durable.
 Treck Location: Grambharti, Ahmedabad, Gujrat.
 
-##INTRODUCTION
+### INTRODUCTION
 We present an Neural Network Solution to the above problem. The software uses image recognisation and convulation networks to detects the things its capturing live from an external capturing, here we have used a web camera patrolling the field using a rover. The precision can further be improved by using a 360 degree view camera.
 
-###PRE-REQUISITES
-#TENSORFLOW: GOOGLE DEEP LEARNING MODULE
-#DARKFLOW
-#DARKET
+### PRE-REQUISITES
+# TENSORFLOW: GOOGLE DEEP LEARNING MODULE
+# DARKFLOW
+# DARKET
 
 
 Apart from this we recommend a GPU based system(preferably NIVIDEA with CUDA installed) for smooth functioning of the project.
 
-#TENSOR FLOW INSTALLATION
+# TENSOR FLOW INSTALLATION
 Follow the official documentation at: [here](https://www.tensorflow.org/install/)
 
-#DARKFLOW INSTALLTION
+# DARKFLOW INSTALLTION
 
 Dependencies : Python3, tensorflow 1.0, numpy, opencv 3.
 
@@ -41,7 +41,7 @@ You can choose _one_ of the following three ways to get started with darkflow.
 
 4. Update
 
-#DARKNET INSTALLTION
+# DARKNET INSTALLTION
 
 Dependencies : Python3, opencv 3.
 
@@ -71,6 +71,8 @@ Testing the model.
 	```
 	
 
-###CONTRTIBUTORS
+### DEVELOPERS
 
-[SAI SIDDARTHA MARAM](https://github.com/siddu1998)		[TANUJ VISHNOI](https://github.com/vishnoitanuj)		[SACHIN PANDEY](https://github.com/sachin328)
+[SAI SIDDARTHA MARAM](https://github.com/siddu1998)
+[TANUJ VISHNOI](https://github.com/vishnoitanuj)
+[SACHIN PANDEY](https://github.com/sachin328)
