@@ -1,11 +1,11 @@
-###PROBLEM STATEMENT
-	Crop Vandalism by animals, namely wild boar, nilgai, monkeys and other wild animals.
-	Animals visit the farms at time unknown. The unavailability of any patrolling, each  yaer causes around 30-35% of crop losses to the farmers.
-	High level fencing is too expensive and not durable.
-	Treck Location: Grambharti, Ahmedabad, Gujrat.
+##PROBLEM STATEMENT
+Crop Vandalism by animals, namely wild boar, nilgai, monkeys and other wild animals.
+Animals visit the farms at time unknown. The unavailability of any patrolling, each  yaer causes around 30-35% of crop losses to the farmers.
+High level fencing is too expensive and not durable.
+Treck Location: Grambharti, Ahmedabad, Gujrat.
 
-###INTRODUCTION
-	We present an Neural Network Solution to the above problem. The software uses image recognisation and convulation networks to detects the things its capturing live from an external capturing, here we have used a web camera patrolling the field using a rover. The precision can further be improved by using a 360 degree view camera.
+##INTRODUCTION
+We present an Neural Network Solution to the above problem. The software uses image recognisation and convulation networks to detects the things its capturing live from an external capturing, here we have used a web camera patrolling the field using a rover. The precision can further be improved by using a 360 degree view camera.
 
 ###PRE-REQUISITES
 #TENSORFLOW: GOOGLE DEEP LEARNING MODULE
