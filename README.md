@@ -22,6 +22,8 @@ Follow the official documentation at: [here](https://www.tensorflow.org/install/
 
 Dependencies : Python3, tensorflow 1.0, numpy, opencv 3.
 
+Install Cython using pip install Cython (if not installed)
+
 You can choose _one_ of the following three ways to get started with darkflow.
 
 1. Just build the Cython extensions in place. NOTE: If installing this way you will have to use `./flow` in the cloned darkflow directory instead of `flow` as darkflow is not installed globally.
@@ -70,6 +72,10 @@ Testing the model.
 	./darknet detect cfg/yolo.cfg yolo.weights data/dog.jpg
 	```
 	
+Setting Up directories
+
+Copy the darkflow installation into the darknet folder. Create a bin folder in the darknet and add the yolo.weights into it. 
+You are good to go sweetheart!
 
 ### DEVELOPERS
 
