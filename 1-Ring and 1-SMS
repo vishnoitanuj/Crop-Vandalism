@@ -1,0 +1,50 @@
+/* Connect Rx of Arduino with Tx of GSM 
+Tx of Arduino with Rx of GSM
+
+*/
+
+
+#include <SoftwareSerial.h>
+char phone_no[]="9703150782";
+int timesToSend=1;
+int count=0;
+
+void setup()
+{
+  Serial.begin(9600);    // Setting the baud rate of Serial Monitor (Arduino)
+  delay(2000);
+  Serial.println("AT");
+  delay(10000);
+  Serial.print("ATD");
+  Serial.print(phone_no);
+  Serial.println(";");
+  delay(60000);
+  Serial.println("ATH"); 
+  Serial.println("AT+CMGF=1");
+  delay(1000); 
+}
+
+
+void loop()
+{
+while(count<timesToSend)
+{
+  delay(15000);
+  Serial.print("AT+CMGS=\"");
+  Serial.print(phone_no);
+  Serial.println("\"");
+  while(Serial.read()!='>');
+  {
+    Serial.print("Your Field is under attack");
+    delay(500);
+    Serial.write(0x1A);
+        Serial.write(0x0D);
+            Serial.write(0x0A);
+            delay(5000);
+    }
+  
+  count++;
+  }
+
+}
+
