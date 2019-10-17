@@ -23,7 +23,7 @@ def onOffFunction():
 	else:
 		print("Sorry..type another thing..!")
 		onOffFunction()
-
+print("This is crop")
 time.sleep(2) #waiting the initialization...
 
 onOffFunction()
